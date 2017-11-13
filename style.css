@@ -1,22 +1,30 @@
 body{
-  background-color: #99bbff;
-  -webkit-animation-name:example;
-  /*-webkit-animation-duration: 2s;*/
-  -webkit-animation: example 20s infinite; /* Safari 4+ */
-  }
-  @-webkit-keyframes example{
-    from{background-color: #99bbff;}
-    to{background-color: purple;}
-    from{background-color: #99bbff;}
-  }
-  @@keyframes example{
-    /*from{background-color: #99bbff;}*/
-    to{background-color: purple;}
-    from{background-color: #99bbff;}
+  background-color: #4FD5D6;
 }
 
-.inline-title h1{
+.inline-title h1,
+.inline-title h2,
+.inline-title h3,
+.inline-title h4,
+.inline-title h5,
+.inline-title h6{
   display: inline;
+}
+
+.bordered{
+  border-radius: 20px;
+}
+
+.sky-blue{
+  background-color: #CDFFFF;
+}
+
+.inline-list li{
+  display: inline;
+}
+
+.bloody-brown{
+  background-color: #400D12;
 }
 
 #logo_area{
@@ -34,6 +42,7 @@ body {font-family: Verdana,sans-serif;}
   width: 580px;
   height: auto;
   margin: 0px auto;
+  margin-top: 50px;
   margin-bottom: 50px;
   padding: 10px 10px 10px 10px;
   border-right: 0px;
@@ -77,6 +86,16 @@ body {font-family: Verdana,sans-serif;}
 
 .centered{
   margin: 0px auto;
+}
+
+.at-bottom{
+  position: fixed;
+  bottom: 0;
+}
+
+#logo{
+  margin:auto;
+  background-color: ##4FD5D6;
 }
 
 #links {

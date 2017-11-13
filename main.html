@@ -14,21 +14,41 @@
 
 </head>
 <body>
+<header>
+<nav>
+  <div class="nav-wrapper bloody-brown">
+    <a href="#" id= "logo" class="brand-logo inline-title" style="margin-left: 20px"><h2>Cs</h2><h1 style="color:red;">SOS!</h1></a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a href="#SignIn">Sign In</a></li>
+      <li><a href="#LogIn">Log In</a></li>
+    </ul>
+  </div>
+</nav>
+</header>
 
-<div id="logo_area">
-<div class="inline-title"><h1>Cs</h1><h1 style="color:red;">SOS!</h1></div>
-<p>A convenient helper for any computer scientist</p>
-</div>
+<main>
 <div id="nav-buttons">
-  <a href="#!" class="waves-effect waves-yellow btn indigo lighten-2">SOS Documentation</a>
-  <a href="#!" class="waves-effect waves-orange btn indigo lighten-2">SOS Tutorials</a>
-  <a href="#!" class="waves-effect waves-green btn indigo lighten-2">SOS API</a>
+  <a href="#!" class="waves-effect waves-yellow btn sky-blue blk-lttr lighten-2">SOS Documentation</a>
+  <a href="#!" class="waves-effect waves-orange btn sky-blue blk-lttr lighten-2">SOS Tutorials</a>
+  <a href="#!" class="waves-effect waves-green btn sky-blue blk-lttr lighten-2">SOS API</a>
 </div>
 
-<div class="carousel carousel-slider size-s centered">
-  <a class="carousel-item" href="#one"> <img  src="images/buho.jpg"></a>
-  <a class="carousel-item" href="#two"> <img  src="images/panorama.jpg"></a>
-  <a class="carousel-item" href="#three"> <img  src="images/pixar.jpg"></a>
+<div class="carousel carousel-slider center size-s centered bordered" data-indicators="true" style="margin-bottom: 50px">
+  <div class="carousel-item card-panel hoverable blue white-text" href="#one!">
+    <h2>Computer Science News #1</h2>
+    <p class="at-bottom" style="margin-bottom:25px;">Elena Maria new book: "The religion of science, serving the gods of reasoning"
+    caused controversy. The book was a list of alcoholic berverages and how to make them.</p>
+  </div>
+  <div class="carousel-item card-panel hoverable amber white-text" href="#two!">
+    <h2>Computer Science News #2</h2>
+    <p class="at-bottom" style="margin-bottom:25px;">Last thursday somebody discovered something and
+      nobody can actually believe it</p>
+  </div>
+  <div class="carousel-item card-panel hoverable red white-text" href="#three!">
+    <h2>Computer Science New #4</h2>
+    <p class="at-bottom" style="margin-bottom:20px;">Starting today, the number three is outdated and remembering
+    it ever existed is therefore illegal</p>
+  </div>
 </div>
 
 <script>
@@ -37,7 +57,7 @@ $('.carousel.carousel-slider').carousel({fullWidth: false});
 </script>
 
 <div class="fixed-action-btn vertical" style="background-color:rgba(0,0,0,0);">
-  <a class="btn-floating btn-large blue">
+  <a class="btn-floating btn-large pulse blue">
   <i class="large material-icons">mode_edit</i>
   </a>
   <ul>
@@ -47,8 +67,31 @@ $('.carousel.carousel-slider').carousel({fullWidth: false});
     <li><a class="btn-floating white blk-lttr">GitHub</a></li>
   </ul>
 </div>
-<br/>
-<br/>
-<br/>
+</main>
+
+<footer class="page-footer bloody-brown">
+  <div class="container">
+    <div class="row">
+      <div class="col 16 s12">
+        <p class="grey-text text-lighten-4"> this site is protected by many things that lurk under your bed</p>
+      </div>
+      <div class="col 14 offset-12 s12">
+        <h3 class="white-text">Links</h3>
+        <ul class="inline-list">
+          <li class="grey-text text-lighten-3" href="#!1">link1</li>
+          <li class="grey-text text-lighten-3" href="#!2">link2</li>
+          <li class="grey-text text-lighten-3" href="#!3">link4</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer copyright">
+    <div class="container">
+      2253 copyright
+      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>
