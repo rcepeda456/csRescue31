@@ -5,14 +5,18 @@
 <link type="text/css" rel="stylesheet" href="sass/materialize.css"  media="screen,projection"/>
 <link rel="stylesheet" type="text/css" href="style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<script src="script.js"></script>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="js/bin/materialize.min.js"></script>
+<script type="text/javascript" src="js/bin/materialize.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
 </head>
 <body>
 
 <div id="logo_area">
-<h1>CSSOS</h1>
+<div class="inline-title"><h1>Cs</h1><h1 style="color:red;">SOS!</h1></div>
 <p>A convenient helper for any computer scientist</p>
 </div>
 <div id="nav-buttons">
@@ -21,83 +25,30 @@
   <a href="#!" class="waves-effect waves-green btn indigo lighten-2">SOS API</a>
 </div>
 
-<div class="slideshow-container">
-
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <a href= "https://www.tutorialspoint.com/prolog_in_artificial_intelligence/index.asp">
-    <img class = "img" src="images/buho.jpg" style="height:675px">
-  </a>
-  <div class="text">Robots</div>
+<div class="carousel carousel-slider size-s centered">
+  <a class="carousel-item" href="#one"> <img  src="images/buho.jpg"></a>
+  <a class="carousel-item" href="#two"> <img  src="images/panorama.jpg"></a>
+  <a class="carousel-item" href="#three"> <img  src="images/pixar.jpg"></a>
 </div>
-
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <a href= "https://www.tutorialspoint.com/cloud_computing_online_training/index.asp">
-  <img class="img" src="images/panorama.jpg" style="height:675px; width: 1000px">
-</a>
-  <div class="text">Clouds</div>
-</div>
-
-<div class="mySlides fade">
-  <a href= "https://www.tutorialspoint.com/3d_animation_online_training/index.asp">
-  <div class="numbertext">3 / 3</div>
-  <img class = "img" src="images/pixar-Credit-Wikimedia-Commons.jpg" style="height:675px">
-</a>
-  <div class="text">Dreams</div>
-</div>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-</div>
-
-
-<div id="spam">
-  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="images/irobo.jpg"></a><br/>
-  <a href="https://www.netflix.com/" target="_blank"><img src="images/wuzy.jpg"></a><br/>
-  <a href="https://www.hulu.com/welcome?orig_referrer=https%3A%2F%2Fwww.google.com%2F" target="_blank"><img src="images/hulu-logo.jpg"></a><br/>
-</div>
-
-<!--dive of links-->
-
-<div id = "links">
-  <p>
-
-  <a href="https://www.atomtickets.com/">Atom Tickets:</a>
-
-  <a href="https://www.regmovies.com/">Regal Tickets:</a>
-
-  <a href="https://www.nhl.com/">NHL:</a>
-
-  <a href="http://www.nba.com/#/">NBA:</a>
-
-  <a href="https://www.mlb.com/">MLB:</a>
-
-  <a href="https://www.pandora.com/">Pandora:</a>
-
-  <a href="https://www.spotify.com/us/">Spotify:</a>
-
-  <a href="https://soundcloud.com/">Soundcloud:</a>
-
-  <a href="https://www.facebook.com/"> Facebook:</a>
-
-  <a href="https://twitter.com/?lang=en">Twitter:</a>
-<img src="images/table31.png">
-</p>
-</div>
-
 
 <script>
-
-var slideIndex = 0;
-showSlides();
-
+$('.carousel.carousel-slider').carousel({fullWidth: false});
+//resizeIMGClass('.carousel.carousel-slider', '400', '500');
 </script>
 
+<div class="fixed-action-btn vertical" style="background-color:rgba(0,0,0,0);">
+  <a class="btn-floating btn-large blue">
+  <i class="large material-icons">mode_edit</i>
+  </a>
+  <ul>
+    <li><a class="btn-floating green blk-lttr">Spotify</a></li>
+    <li><a class="btn-floating red blk-lttr">Netflix</a></li>
+    <li><a class="btn-floating orange blk-lttr">SoundCloud</a></li>
+    <li><a class="btn-floating white blk-lttr">GitHub</a></li>
+  </ul>
+</div>
+<br/>
+<br/>
+<br/>
 </body>
 </html>

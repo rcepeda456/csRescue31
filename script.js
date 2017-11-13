@@ -7,19 +7,22 @@ function showSlides() {
     var slides = document.getElementsByClassName("mySlides");
     var dots = document.getElementsByClassName("dot");
     for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";  
+       slides[i].style.display = "none";
     }
     slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
+    if (slideIndex > slides.length) {slideIndex = 1}
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
-    slides[slideIndex-1].style.display = "block";  
+    slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
     setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
-  
 
-
-
-
+function resizeIMGClass(class_name,width,height){
+  var myImage = document.getElementsByClassName(class_name + ' img');
+  console.log(myImage);
+  myImage.style.width=width;
+  myImage.style.height=height;
+  document.getElementsByClassName(class_name + ' img').style.height=height+'px';
+}

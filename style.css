@@ -15,9 +15,8 @@ body{
     from{background-color: #99bbff;}
 }
 
-a:link{
-  text-emphasis-color: red;
-  color: red;
+.inline-title h1{
+  display: inline;
 }
 
 #logo_area{
@@ -26,13 +25,6 @@ a:link{
   font-size: 25px;
 }
 
-a:visited{
-  color: white;
-}
-
-a:hover{
-  color: red
-}
 
 * {box-sizing:border-box}
 body {font-family: Verdana,sans-serif;}
@@ -41,16 +33,20 @@ body {font-family: Verdana,sans-serif;}
 #nav-buttons {
   width: 580px;
   height: auto;
-  margin: -10px 0px 25px 25rem;
+  margin: 0px auto;
+  margin-bottom: 50px;
   padding: 10px 10px 10px 10px;
   border-right: 0px;
   border-radius: 10px;
   background-color: gray;
+  color: white;
 }
 
 #nav-buttons a:hover{
   color: blue;
 }
+
+
 
 #spam{
   position: relative;
@@ -63,12 +59,24 @@ body {font-family: Verdana,sans-serif;}
   height: 200px;
 }
 
+.blk-lttr{
+  color: black;
+}
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 900px;
   position: relative;
 
+}
+
+.size-s{
+  max-height: 50%;
+  max-width: 50%;
+}
+
+.centered{
+  margin: 0px auto;
 }
 
 #links {
