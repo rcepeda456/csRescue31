@@ -1,42 +1,15 @@
 body{
   background-color: #4FD5D6;
+  font-family: Verdana,sans-serif;
 }
+* {box-sizing:border-box}
 
-.inline-title h1,
-.inline-title h2,
-.inline-title h3,
-.inline-title h4,
-.inline-title h5,
-.inline-title h6{
-  display: inline;
-}
-
-.bordered{
-  border-radius: 20px;
-}
-
-.sky-blue{
-  background-color: #CDFFFF;
-}
-
-.inline-list li{
-  display: inline;
-}
-
-.bloody-brown{
-  background-color: #400D12;
-}
 
 #logo_area{
   padding: 100px;
   text-align: center;
   font-size: 25px;
 }
-
-
-* {box-sizing:border-box}
-body {font-family: Verdana,sans-serif;}
-.mySlides {display:none}
 
 #nav-buttons {
   width: 580px;
@@ -68,6 +41,46 @@ body {font-family: Verdana,sans-serif;}
   height: 200px;
 }
 
+#logo{
+  margin:auto;
+}
+
+#links {
+  position: relative;
+  margin: auto;
+  width: 400px;
+  height: 300px;
+}
+
+#link img{
+  margin-left: 200px;
+}
+
+.inline-title h1,
+.inline-title h2,
+.inline-title h3,
+.inline-title h4,
+.inline-title h5,
+.inline-title h6{
+  display: inline;
+}
+
+.bordered{
+  border-radius: 20px;
+}
+
+.sky-blue{
+  background-color: #CDFFFF;
+}
+
+.inline-list li{
+  display: inline;
+}
+
+.bloody-brown{
+  background-color: #400D12;
+}
+
 .blk-lttr{
   color: black;
 }
@@ -86,27 +99,13 @@ body {font-family: Verdana,sans-serif;}
 
 .centered{
   margin: 0px auto;
+  width: 50%;
+  padding: 10px;
 }
 
 .at-bottom{
   position: fixed;
   bottom: 0;
-}
-
-#logo{
-  margin:auto;
-  background-color: ##4FD5D6;
-}
-
-#links {
-  position: relative;
-  margin: auto;
-  width: 400px;
-  height: 300px;
-}
-
-#link img{
-  margin-left: 200px;
 }
 
 .mySlides .img{
@@ -139,40 +138,6 @@ body {font-family: Verdana,sans-serif;}
   color:  #cc0000;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
 .active {
   background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 0.5s;
-  animation-name: fade;
-  animation-duration: 0.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
 }
